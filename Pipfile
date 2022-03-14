@@ -1,0 +1,20 @@
+[[source]]
+name = "pypi"
+url = "https://pypi.org/simple"
+verify_ssl = true
+
+[dev-packages]
+pytest = {version = "*",index = "pypi"}
+pytest-cov = {version = "*",index = "pypi"}
+snowflake-connector-python = {version = "*",index = "pypi"}
+pre-commit = "*"
+python-dotenv = "*"
+flake8 = "*"
+
+[packages]
+boto3 = {version = "*",index = "pypi"}
+pycryptodomex = {version = "*",index = "pypi"}
+requests = {version = "~=2.23.0",index = "pypi"}
+
+[requires]
+python_version = "3.7"

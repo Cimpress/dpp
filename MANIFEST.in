@@ -1,0 +1,2 @@
+include versioneer.py
+include dpp_connect/_version.py
